@@ -1,0 +1,38 @@
+.contain-all{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    background-color: darkgoldenrod;
+    height: 450px;
+    border:2px solid black;
+    margin: 10px;
+    flex-basis: 100px;
+
+}
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sec-box1{
+    background-color: skyblue;
+    height: 30%;
+    border:2px solid black;
+    margin :0%;
+    flex-basis: 210px;
+}
+.sec-box2{
+    background-color: gray;
+    height: 30%;
+    border:2px solid black;
+    padding:110px;
+    flex-basis: 20px;
+}
+footer{
+    background-color: palevioletred;
+    height: 450px;
+    border:2px solid black;
+    margin: 10px;
+    flex-basis: 100px;
+}

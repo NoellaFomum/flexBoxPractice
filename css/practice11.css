@@ -1,0 +1,29 @@
+.main-con {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-style1 {
+    background-color: darkgoldenrod;
+    height: 450px;
+    border: 2px solid black;
+    margin: 10px;
+    flex-basis: 100px;
+}
+
+.box-style2 {
+    background-color: gray;
+    height: 450px;
+    border: 2px solid black;
+    margin: 10px;
+    flex-basis: 100px;
+    order: 1;
+}
+.box-style3{
+    background-color: steelblue;
+    height: 450px;
+    border: 2px solid black;
+    margin: 10px;
+    flex-basis: 100px;
+    order: 1;
+}

@@ -1,0 +1,56 @@
+.box-style1{
+    background-color: darkgoldenrod;
+    height: 150px;
+    border:2px solid black;
+    margin: 2%;
+}
+.main-box{
+    height: 150px;
+    margin: 2%;
+    display: flex;
+}
+.sec-box1 {
+    background-color: gray;
+    flex-grow: 1;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+.sec-box2{
+    background-color: cadetblue;
+    flex-grow: 2;
+    border: 2px solid black
+}
+.box-style3{
+    background-color: cornflowerblue;
+    height: 150px;
+    border: 2px solid black;
+    margin: 2%;
+}
+.flex-box{
+    display: flex;
+    height: 50px;
+    margin: 25px;
+    justify-content: space-between;
+   
+}
+.first-para{
+    background-color: hotpink;
+    border: 2px solid black;
+    flex-basis: 200px;
+
+}
+.second-para{
+    background-color: hotpink;
+    border: 2px solid black;
+    flex-basis: 200px;
+}
+.third-para{
+    background-color: hotpink;
+    border: 2px solid black;
+    flex-basis: 200px;
+}
+.fourth-para{
+    background-color: hotpink;
+    border: 2px solid black;
+    flex-basis: 200px;
+}

@@ -1,0 +1,29 @@
+.box-style1{
+    background-color: darkgoldenrod;
+    height: 150px;
+    border:2px solid black;
+    margin: 2%;
+}
+.main-box{
+    background-color: gray;
+    height: 150px;
+    border: 2px solid black;
+    margin: 2%;
+    display: flex;
+}
+.sec-box1 {
+    background-color: gray;
+    flex-basis: 50%;
+    border: 1px solid black;
+}
+.sec-box2{
+    background-color: cadetblue;
+    flex-basis: 50%;
+    border: 1px solid black
+}
+.box-style3{
+    background-color: cornflowerblue;
+    height: 150px;
+    border: 2px solid black;
+    margin: 2%;
+}

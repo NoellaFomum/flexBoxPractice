@@ -1,0 +1,15 @@
+.box-style1{
+    background-color: darkgoldenrod;
+    height: 150px;
+    border:2px solid black;
+}
+.box-style2{
+    background-color: slategrey;
+    height: 150px;
+    border: 2px solid black;
+}
+.box-style3{
+    background-color: cornflowerblue;
+    height: 150px;
+    border: 2px solid black;
+}
