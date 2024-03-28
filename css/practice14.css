@@ -1,38 +1,58 @@
 .contain-all{
     display: flex;
-    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin: 2%;
 }
-header{
+.sec-header{
     background-color: darkgoldenrod;
-    height: 450px;
-    border:2px solid black;
-    margin: 10px;
-    flex-basis: 100px;
-
+    border: 2px solid black;
+    flex-basis: 25%;
+    flex-direction: row;
+    margin: 2%;
 }
-main{
-    display:flex;
+.sec-main{
+    display: flex;
+    height: 100%;
+    flex-basis: 60%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 1%;
 }
 .sec-box1{
-    background-color: skyblue;
-    height: 30%;
-    border:2px solid black;
-    margin :0%;
-    flex-basis: 210px;
+    background-color: darkturquoise;
+    border: 2px solid black;
+    margin-bottom: 10%;
+    height: 200px;
+    margin: 2%;
 }
 .sec-box2{
     background-color: gray;
-    height: 30%;
-    border:2px solid black;
-    padding:110px;
-    flex-basis: 20px;
+    border: 2px solid black;
+    height: 600px;
+    margin: 2%;
 }
-footer{
+.sec-aside{
     background-color: palevioletred;
-    height: 450px;
-    border:2px solid black;
-    margin: 10px;
-    flex-basis: 100px;
+    border: 2px solid black;
+    flex-direction: row;
+    flex-basis: 25%;
+    margin: 2%;
+}
+
+.sec-footer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 2%;
+}
+.second-container{
+    background-color: red;
+    border: 2px solid black;
+    flex-direction: row;
+    flex-basis: 100%;
+    height: 300px;
+    margin: 2%;
+    margin-top: .5%;
+    
 }

@@ -1,9 +1,10 @@
 .box-style1{
     background-color: darkgoldenrod;
     height: 150px;
-    border:3px solid black;
+    border:2px solid black;
     margin: 2%;
-    display: flex;  
+    display: flex;
+    justify-content: space-evenly;
 }
 .main-box{
     height: 150px;
@@ -12,81 +13,82 @@
 }
 .sec-box1 {
     background-color: gray;
+    border: 2px solid black;
     flex-grow: 1;
-    border: 3px solid black;
-    margin-right: 10px;
+    margin-right: 5%;
 }
 .sec-box2{
     background-color: cadetblue;
     flex-grow: 2;
-    border: 3px solid black
+    border: 2px solid black
+    
 }
 .box-style3{
     background-color: cornflowerblue;
-    height: 200px;
-    border: 3px solid black;
-    margin: 2%;
+    height: 150px;
     display: flex;
-    justify-content: flex-end;
-    
+    border: 2px solid black;
+    margin: 2%;
+    justify-content: right;
 }
 .flex-box{
     display: flex;
-    height: 50px;
-    margin: 20px;
+    height: 100px;
+    margin: 2%;
     justify-content: space-evenly;
-   
 }
-.first-para{
+.first-para,.second-para,.third-para,.fourth-para{
     background-color: hotpink;
-    border: 3px solid black;
-    flex-basis: 200px;
+    border: 2px solid black;
+    flex-direction: column;
+    flex-basis: 250px;
+    margin-left: 5%;
 
-}
-.second-para{
-    background-color: hotpink;
-    border: 3px solid black;
-    flex-basis: 200px;
-}
-.third-para{
-    background-color: hotpink;
-    border: 3px solid black;
-    flex-basis: 200px;
-}
-.fourth-para{
-    background-color: hotpink;
-    border: 3px solid black;
-    flex-basis: 200px;
 }
 .fifth-para{
     background-color: darkgreen;
     border-radius: 50%;
-    flex-basis: 40px;
-    border: 3px solid;
+    flex-basis: 200px;
+    border: 2px solid;
+  
+}
+.invisible-box,.invisible-box2{
+    flex-direction: column;
+    flex-basis: 250px;
 }
 .style-header{
     background-color: darkgreen;
-    border: 3px solid;
-    flex-basis: 200px;
-    margin-left: 25px;
+    border: 2px solid black;
+    flex-basis: 120px;
+    height: 100px;
+    margin: 25px;
 }
-#log-in{
+.log-me{
     align-content: center;
     font-size: x-large;
-    align-items: flex-end;
-    margin-left: 1200px;
+    flex-basis: 120px;
+    margin: 2%;
+  
+}
+.style-header2,.style-header3,.style-header4,.style-header5{
+    flex-direction: column;
+    flex-basis: 120px;
+    margin: 2%;
 }
 .about-us,.support,.social-connect{
     background-color: rgb(40, 179, 179);
-    border: 3px solid black;
-    height: 100px;
-    flex-basis: 200px;
-    margin: 20px 10px;
+    border: 2px solid black;
+    flex-basis: 120px;
+    height: 75px;
+    margin: 25px;
     color: azure;
-    font-size: xx-large;
+    font-size: larger;
     font-weight: bolder;
     text-align: center;
     padding-top: 40px;
-
-    
+}
+.empty-space{
+    flex-basis: 120px;
+    height: 75px;
+    margin: 25px;
 }

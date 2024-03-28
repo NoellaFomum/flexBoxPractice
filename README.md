@@ -1,2 +1,2 @@
 # flexBoxPractice
-A demo on box and flex model in order to enhance my skills on Html and CSS
+This a website where students can apply their knowledge about flexbox and box model, replicating the layouts
